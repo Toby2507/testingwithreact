@@ -1,4 +1,7 @@
 name: CI
+env:
+  SAUCE_USER_NAME: ${{ secrets.SAUCE_USER_NAME }}
+  SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
 
 on:
   push:
